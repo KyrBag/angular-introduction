@@ -8,5 +8,12 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular-introduction';
+  name = 'Kyriakos';
+
+  person ={
+    givenName: 'Kyriakos',
+    surName: 'Bagakis',
+    age: 25,
+    email: 'kyrbag@hotmail.gr',
+  };
 }
