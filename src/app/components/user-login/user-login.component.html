@@ -1,7 +1,7 @@
 <h4>User Login</h4>
 
 <form [formGroup]="form"
-(ngSubmit)="onSubmit"
+(ngSubmit)="onSubmit()"
 class="d-flex flex-column gap-3 w-50">
 
 <div class="form-group">
@@ -31,7 +31,7 @@ class="d-flex flex-column gap-3 w-50">
 @if (invalidLogin) {
     <div class="alert alert-danger">
         <strong>Error:</strong> 
-        Invalid email or password
+        Invalid email or password click <a role="button" routerLink="/register">here</a> to register
     </div>
 }
 

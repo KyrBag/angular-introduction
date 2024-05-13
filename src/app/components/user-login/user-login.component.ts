@@ -38,7 +38,7 @@ export class UserLoginComponent {
           email: decodedTokenSubject.email,
         });
 
-        this.router.navigate(['restricted-content-example'])
+        this.router.navigate(['restricted-content-example']);
       },
       error: (response) => {
         console.error('Login Error', response);
