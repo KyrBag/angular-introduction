@@ -12,6 +12,7 @@ import { UserRegistrationComponent } from './components/user-registration/user-r
 import { RestrictedContentExampleComponent } from './components/restricted-content-example/restricted-content-example.component';
 import { authGuard } from './shared/guard/auth.guard';
 import { UserLoginComponent } from './components/user-login/user-login.component';
+import { FunForNerdsComponent } from './components/fun-for-ners/fun-for-nerds/fun-for-nerds.component';
 
 export const routes: Routes = [
     {path: 'component-input-example', component: ComponentInputExampleComponent},
@@ -41,6 +42,10 @@ export const routes: Routes = [
     {
         path: 'login',
         component: UserLoginComponent
+    },
+    {
+        path: 'fun-for-nerds',
+        component: FunForNerdsComponent
     },
     {path: '',  component: WelcomeComponent},
     
